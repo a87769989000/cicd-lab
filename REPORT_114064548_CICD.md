@@ -102,11 +102,11 @@ jobs:
 
 請將成功截圖貼在這裡：
 
-[請貼上成功執行截圖]
+[請在 PDF 中貼上成功執行截圖]`n`n成功執行連結：https://github.com/a87769989000/cicd-lab/actions/runs/26293669357
 
 ## 5. 失敗案例說明
 
-本作業的失敗案例可使用 Prettier 格式錯誤示範。做法是在任一 TypeScript 檔案中故意改成不符合 `.prettierrc` 的格式，例如把單引號改成雙引號，或移除必要的排版格式，接著 push 到 GitHub。
+本作業的失敗案例使用 Prettier 格式錯誤示範。我另外建立 `failure-demo-114064548` 分支，在 `src/app.ts` 中故意加入不符合 `.prettierrc` 的格式，接著 push 到 GitHub，讓該分支產生 failed pipeline。
 
 範例：
 
@@ -132,7 +132,7 @@ const message = 'format error example';
 
 請將失敗截圖貼在這裡：
 
-[請貼上 pipeline failed 截圖]
+[請在 PDF 中貼上 pipeline failed 截圖]`n`n失敗執行連結：https://github.com/a87769989000/cicd-lab/actions/runs/26293739822
 
 ## 6. 結論
 
