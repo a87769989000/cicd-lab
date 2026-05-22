@@ -1,4 +1,4 @@
-﻿name: ci_114064548
+﻿name: CI 114064548
 
 on:
   push:
@@ -47,3 +47,4 @@ jobs:
           path: reports/vitest-junit.xml
           reporter: java-junit
           fail-on-error: true
+
