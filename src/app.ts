@@ -21,3 +21,4 @@ export function buildApp(options: FastifyServerOptions = {}) {
 
   return app;
 }
+const prettierFailureExample = "this branch intentionally fails prettier"
